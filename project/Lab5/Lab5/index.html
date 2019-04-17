@@ -1,0 +1,46 @@
+<html>
+<head>
+    <title>Lab 5</title>
+    <style>
+        body 
+        {
+            background-color: gainsboro;
+        }
+        
+        @keyframes mymove 
+        {
+        0%   {top: 0px; width: 100px;}
+        100% {top: 200px; width: 300px;}
+       }
+        
+      @keyframes slidein {
+      from {
+          margin-left: 100%;
+          width: 300%;
+      }
+
+      to {
+          margin-left: 0%;
+          width: 100%;
+      }
+     }
+        #M
+        {
+          padding: 5px;
+          animation: mymove 1000ms linear 0s infinite ;
+        }
+        
+          #B
+        {
+           padding: 5px;
+           animation:  slidein 2s ease-in-out;
+        }
+        
+    </style>
+    </head>
+    
+    <body>
+        <img id="M" src="free-svg-alphabet-abc-fps/M.svg">    
+        <img id="B" src="free-svg-alphabet-abc-fps/B.svg">   
+    </body>
+</html>
